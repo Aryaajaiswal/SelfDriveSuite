@@ -1,5 +1,4 @@
-﻿## 🤖 SelfDriveSuite: Vehicle Control and Scene Understanding                                                               
-Note:  This project is a culmination of my work for the **"ROB 535: Self-driving Cars: Perception to Control"** course, conducted from September to December 2023. The course provided a solid foundation in autonomous driving technologies, from perception to control, and this repository represents the integration and application of those concepts.
+
 <!-- <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="assets/acc_vehicle_simulation.gif">
 </div> -->
@@ -17,38 +16,6 @@ Note:  This project is a culmination of my work for the **"ROB 535: Self-driving
   <img src="assets/case5_traj_gif.gif" alt="Simulation 3" width="400" />
   <img src="assets/predictions_gif.gif" alt="Simulation 4" width="400" />
 </p>
-
-### 🎯 Goal
-This a comprehensive project focused on developing algorithms for self-driving cars. This repository encompasses several critical components of autonomous driving technology, including:
-
-- **Adaptive Cruise Control**: Implementing an adaptive cruise controller to maintain safe following distances and speeds.
-- **Model Predictive Control (MPC)**: Designing both linear and non-linear MPC for tracking reference trajectories and optimizing vehicle paths.
-- **All-Weather Scene Understanding**: Achieving robust real-time, object recognition, detection, and scene segmentation in challenging conditions, such as low visibility, fast-paced scenario, and/or adverse weather.
-
-## ⚙️ Prerequisites
-- Libraries/Frameworks:
-    - Numpy
-    - Matplotlib
-    - Scipy
-    - CVXPY (for Convex optimization)
-    - CasADi 
-    - pytorch
-
-## 🛠️ Test/Demo
-- Adaptive Cruise Control
-    - Go to the directory 'Vehicle Control\Adaptive Cruise Control', and launch the jupyter notebook
-- Trajectory tracking using Linear MPC
-    - Go to the directory 'Vehicle Control\Trajectory tracking', and launch the jupyter notebook
-- Car Overtaking using Non-Linear MPC
-    - Go to the directory 'Trajectory Optimization\CarOvertaking', and launch the jupyter notebook
-- Drag Racing using Non-Linear MPC
-    - Go to the directory 'Trajectory Optimization\DragRacing', and launch the jupyter notebook
-- Image Classification
-    - Go to the directory 'Image Classification', and launch the jupyter notebook
-- Object Detection
-    - Go to the directory 'Object Detection', and run 'inference.py' or 'inference_video.py' following README there.
-- Scene Segmentation
-    - Go to the directory 'Scene Segmentation', and launch the jupyter notebook
 
 ## 📊 Results
 ### 📈 Adaptive Cruise Control
